@@ -1,16 +1,29 @@
-# React + Vite
+Employee Management Dashboard
+A ReactJS application featuring employee data management, interactive maps, salary analytics, and camera integration.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Login System — Secure access with credentials: testuser / Test123.
 
-Currently, two official plugins are available:
+Data Table — Searchable employee list with vertical scrolling (sticky headers & max 10 rows).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Employee Details — Comprehensive profile view including salary, position, and location.
 
-## React Compiler
+Camera Integration — Real-time ID photo capture using the device webcam.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Data Visualization:
 
-## Expanding the ESLint configuration
+Bar Chart — Salary distribution comparison of the first 10 employees.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+World Map — Interactive geographic distribution of office locations.
+
+🛠️ Tech Stack
+Library  — React, Axios & React Router
+
+Styling — Tailwind CSS & Lucide Icons
+
+Charts — Recharts
+
+Maps — Leaflet / React-Leaflet
+
+Camera — React-Webcam
+
